@@ -1,0 +1,58 @@
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+/* CAROUSEL */
+#mycarousels {
+    background: black;
+    overflow: hidden;
+}
+#mycarousels img{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+.content-divider {
+    margin: 80px 0;
+}
+/* About Us */
+#aboutus {
+    padding-top: 120px; 
+    overflow: hidden;
+}
+.aboutus-image {
+    margin-left: 50px;
+    border-radius: 0.5rem;
+    width: 450px;
+}
+.heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+/* Services */
+#services img{
+    width: auto;
+    height: 130px;
+}
+#services{
+    text-align: center;
+}
+#services h2 {
+    font-weight: normal;
+}
+#services .span4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Contact Us */
+#contactus {
+    text-align: center;
+}
+/* Registration Form */
+#registration h2{
+    text-align: center;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-md fixed-top bg-body-secondary text-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    RumPin
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactus">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#registration" class="btn btn-dark">Register</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- CAROUSEL -->
+        <div id="mycarousels" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mycarousels" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mycarousels" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mycarousels" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <img src="img/background1.jpg" class="d-block w-100" alt="Carousel Picture-1">
+                    <div class="carousel-caption text-end">
+                        <h1>Terbuka untuk semua jenjang pendidikan</h1>
+                        <h3>Tersedia layanan bimbingan untuk pra sekolah dan sekolah dasar.</h3>
+                        <div>
+                            <a href="#registration" class="btn btn-dark">Let's Join Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/background2.jpg" class="d-block w-100" alt="Carousel Picture-2">
+                    <div class="carousel-caption">
+                        <h1>Tentor yang ramah dan berkompeten di bidangnya</h1>
+                        <h3>Memiliki tentor-tentor yang ramah dan kompeten untuk setiap tingkatan.</h3>
+                        <div>
+                            <a href="#registration" class="btn btn-dark">Let's Join Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/background3.jpg" class="d-block w-100" alt="Carousel Picture-3">
+                    <div class="carousel-caption text-start">
+                        <h1>Meraih perguruan tinggi impian</h1>
+                        <h3>Membantu siswa untuk melanjutkan ke perguruan tinggi impiannya.</h3>
+                        <div>
+                            <a href="#registration" class="btn btn-dark">Let's Join Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mycarousels" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mycarousels" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container content">
+            <div id="aboutus" class="row">
+                <div class="col-md-7">
+                    <h2 class="heading">About Us</h2>
+                    <p class="lead">Bimbingan Belajar Rumah Pintar Sragi hadir untuk membantu siswa dalam mendalami materi
+                        pelajaran sekolah tingkat Pra Sekolah, SD, SMP dan SMA. Rumah Pintar adalah Bimbingan Belajar 
+                        yang dipercaya sejak 2018, yang berdiri dan eksis di daerah Pekalongan dan sekitarnya. Rumah Pintar
+                        hadir dengan tentor-tentor yang berkompeten serta fasilitas belajar yang lengkap dan nyaman.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="aboutus-image" src="img/about.jpeg" alt="About Us">
+                </div>
+            </div>
+        
+            <hr class="content-divider">
+
+            <div id="services" class="row">
+                <h2 class="heading">Services</h2>
+                <div class="row mt-5">
+                    <div class="span4 col">
+                        <img class="img-circle" src="img/paud.png" alt="Logo Paud">
+                        <h2>Pra Sekolah</h2>
+                        <p>Melayani bimbingan belajar baca, tulis, dan hitung untuk anak-anak pra sekolah, seperti Paud atau TK.</p>
+                    </div>
+                    <div class="span4 col">
+                        <img class="img-circle" src="img/sd.png" alt="Logo SD">
+                        <h2>SD</h2>
+                        <p>Melayani bimbingan belajar semua mata pelajaran untuk anak-anak SD kelas 1 sampai kelas 6.</p>
+                    </div>
+                    <div class="span4 col">
+                        <img class="img-circle" src="img/smp.png" alt="Logo SMP">
+                        <h2>SMP</h2>
+                        <p>Melayani bimbingan belajar 4 pelajaran pokok yaitu Matematika, Bahasa Indonesia, Bahasa Inggris, dan IPA.</p>
+                    </div>
+                    <div class="span4 col">
+                        <img class="img-circle" src="img/sma.png" alt="Logo SMA">
+                        <h2>SMA</h2>
+                        <p>Melayani bimbingan belajar persiapan tes masuk Perguruan Tinggi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="content-divider">
+
+            <div id="contactus">
+                <h2 class="heading">Contact Us</h2>
+                <div class="location_info mt-3">
+                    <span class="fa_icon_info">
+                        <i class="bi bi-map"></i>
+                    </span>
+                    <span class="location">JL. Tegalsuruh, Kec. Sragi, Kab.Pekalongan</span>
+                </div>
+                <div class="phone_info mt-3">
+                    <span class="fa_icon_info">
+                        <i class="bi bi-whatsapp"></i>
+                    </span>
+                    <span class="phone">085747580700</span>
+                </div>
+                <div class="email_info mt-3">
+                    <span class="fa_icon_info">
+                        <i class="bi bi-envelope"></i>
+                    </span>
+                    <span class="email">rumpinsragi@gmail.com</span>
+                </div>
+            </div>
+
+            <hr class="content-divider">
+
+            <div id="registration" >
+                <h2 class="heading">Registration Form</h2>
+                <form class="needs-validation" novalidate>
+                    <div class="box-question mt-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="nama-student" value="Hafidh Muhammad Akbar" pattern="[A-Za-z ]+" minlength="5" required>
+                            <label for="nama-student" class="form-label">Name</label>
+                            <div class="invalid-feedback">
+                                Nama hanya boleh mengandung huruf dan spasi serta tidak boleh memiliki panjang kurang dari 5 karakter!
+                            </div>
+                            <div class="valid-feedback">
+                                Inputan sudah sesuai!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-question mt-4">
+                        <div class="form-floating">
+                            <select class="form-select" id="kelas-student" required>
+                                <option selected disabled value="">Pilih salah satu</option>
+                                <option value="1">Pra Sekolah</option>
+                                <option value="2">SD</option>
+                                <option value="3">SMP</option>
+                                <option value="4">SMA</option>
+                            </select>
+                            <label for="kelas-student" class="form-label">Jenjang</label>
+                            <div class="invalid-feedback">
+                                Pilih salah satu opsi!
+                            </div>
+                            <div class="valid-feedback">
+                                Inputan sudah sesuai!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-question mt-4">
+                        <div class="form-floating">
+                            <select class="form-select" id="bimbel-student" required>
+                                <option selected disabled value="">Pilih salah satu</option>
+                                <option value="1">Reguler</option>
+                                <option value="2">Privat</option>
+                            </select>
+                            <label for="bimbel-student" class="form-label">Pilihan Bimbel</label>
+                            <div class="invalid-feedback">
+                                Pilih salah satu opsi!
+                            </div>
+                            <div class="valid-feedback">
+                                Inputan sudah sesuai!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-register mt-4 d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" class="btn btn-outline-secondary" onclick="formValidation()">Register</button>
+                    </div>
+                </form>
+            </div>
+
+            <hr class="content-divider">
+        </div>
+    </main>
+    
+    <footer class="container">
+        <p>&copy; Copyright 2023, Rumah Pintar Sragi. All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
